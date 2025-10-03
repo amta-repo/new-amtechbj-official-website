@@ -1,8 +1,8 @@
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Twitter } from 'lucide-react';
-import codamLogo from '@/assets/codam-logo.png';
+import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Twitter, Rss } from 'lucide-react';
+import amtechLogo from '@/assets/amtech-logo.jpg';
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -17,12 +17,12 @@ const Footer = () => {
   ];
 
   const services = [
-    t('services.management.title'),
-    t('services.feasibility.title'),
-    t('services.budgeting.title'),
-    t('services.risk.title'),
-    t('services.training.title'),
-    t('services.quality.title'),
+    t('services.automation.title'),
+    t('services.datascience.title'),
+    t('services.ai.title'),
+    t('services.geospatial.title'),
+    t('services.business.title'),
+    t('services.web.title'),
   ];
 
   return (
@@ -33,30 +33,33 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src={codamLogo} 
-                alt="CODAM BENIN CONSULTING" 
-                className="h-10 w-auto brightness-0 invert"
+                src={amtechLogo} 
+                alt="AMTECH-BJ Technology Solutions" 
+                className="h-12 w-auto rounded"
               />
               <div className="flex flex-col">
-                <span className="font-bold text-lg">CODAM BENIN</span>
-                <span className="text-xs opacity-90 uppercase tracking-wide">CONSULTING</span>
+                <span className="font-bold text-lg">AMTECH-BJ</span>
+                <span className="text-xs opacity-90 uppercase tracking-wide text-gold">Innovate, Illuminate, Excel</span>
               </div>
             </div>
             <p className="text-sm opacity-90 leading-relaxed">
               {t('about.mission.text')}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover-gold">
+              <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="hover-gold">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="hover-gold">
-                <Instagram className="h-5 w-5" />
+              <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="hover-gold">
+                <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="hover-gold">
+              <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer" className="hover-gold">
                 <Youtube className="h-5 w-5" />
               </a>
-              <a href="#" className="hover-gold">
-                <Twitter className="h-5 w-5" />
+              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover-gold">
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a href="/rss.xml" target="_blank" rel="noopener noreferrer" className="hover-gold" title="RSS Feed">
+                <Rss className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -99,19 +102,20 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 mt-1 text-gold" />
                 <div className="text-sm opacity-90">
-                  <p>F82W+4P Abomey Calavi, Atlantique Benin</p>
+                  <p>Cotonou, Benin</p>
+                  <p className="text-xs mt-1">Serving Africa & Global Markets</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-gold" />
-                <a href="tel:+22901967576390" className="text-sm opacity-90 hover:text-gold transition-colors">
-                  +229 01 96 75 76 39
+                <a href="tel:+2290191134672" className="text-sm opacity-90 hover:text-gold transition-colors">
+                  +229 01 91 13 46 72
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-gold" />
-                <a href="mailto:contact@codambenin.com" className="text-sm opacity-90 hover:text-gold transition-colors">
-                  contact@codambenin.com
+                <a href="mailto:info@amtech-bj.com" className="text-sm opacity-90 hover:text-gold transition-colors">
+                  info@amtech-bj.com
                 </a>
               </div>
             </div>
@@ -122,7 +126,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm opacity-90">
-              © 2025 CODAM BENIN CONSULTING. Tous droits réservés.
+              © 2025 AMTECH-BJ Technology Solutions. All rights reserved.
             </div>
             <div className="flex space-x-6">
               <Link to="/privacy" className="text-sm opacity-90 hover:text-gold transition-colors">

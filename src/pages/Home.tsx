@@ -8,20 +8,21 @@ import {
   Mail, 
   ArrowRight, 
   CheckCircle, 
-  Building2, 
-  Users, 
-  Award, 
-  Target,
-  Clipboard,
-  Shield,
+  Bot, 
+  LineChart, 
+  Brain, 
+  MapPin as Map, 
+  FileText,
+  Globe,
   TrendingUp,
-  Wrench
+  Zap,
+  Target
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ServiceDetailModal from '@/components/ServiceDetailModal';
 
-// Import project images
-import projectFoundation from '@/assets/project-foundation.jpg';
+// Import images
+import founderCeo from '@/assets/founder-ceo.jpg';
 import teamMemberSite from '@/assets/team-member-site.jpg';
 import professionalSafety from '@/assets/professional-safety.jpg';
 import buildingStructure from '@/assets/building-structure.jpg';
@@ -34,123 +35,123 @@ const Home = () => {
 
   const services = [
     {
-      icon: Building2,
-      title: t('services.management.title'),
-      description: t('services.management.desc'),
+      icon: Bot,
+      title: t('services.automation.title'),
+      description: t('services.automation.desc'),
       color: 'from-primary to-primary-dark',
       features: [
-        'Planification et coordination',
-        'Suivi des travaux en temps réel',
-        'Gestion des équipes et sous-traitants',
-        'Respect des délais et budgets',
-        'Reporting détaillé'
+        'Process automation & workflow optimization',
+        'HR & finance system integration',
+        'Operations efficiency improvement',
+        'Cost reduction through automation',
+        'Scalable business solutions'
       ],
-      benefits: ['Efficacité', 'Qualité', 'Économies'],
+      benefits: ['Efficiency', 'Cost Savings', 'Scalability'],
       process: [
-        'Analyse des besoins du projet',
-        'Élaboration du plan de gestion',
-        'Coordination des équipes',
-        'Suivi et contrôle qualité'
+        'Business process analysis',
+        'Automation strategy development',
+        'System implementation',
+        'Performance monitoring'
       ]
     },
     {
-      icon: Clipboard,
-      title: t('services.feasibility.title'),
-      description: t('services.feasibility.desc'),
+      icon: LineChart,
+      title: t('services.datascience.title'),
+      description: t('services.datascience.desc'),
       color: 'from-gold to-gold-dark',
       features: [
-        'Analyse de marché approfondie',
-        'Étude technique et réglementaire',
-        'Évaluation des risques',
-        'Recommandations stratégiques',
-        'Rapport détaillé'
+        'Advanced analytics dashboards',
+        'Predictive forecasting models',
+        'Customer segmentation analysis',
+        'Business intelligence consulting',
+        'Data-driven decision support'
       ],
-      benefits: ['Viabilité', 'Rentabilité', 'Conformité'],
+      benefits: ['Insights', 'Forecasting', 'Growth'],
       process: [
-        'Collecte des données du site',
-        'Analyse réglementaire',
-        'Évaluation économique',
-        'Rapport de faisabilité'
+        'Data collection & cleaning',
+        'Analytical model development',
+        'Dashboard creation',
+        'Insights delivery'
       ]
     },
     {
-      icon: TrendingUp,
-      title: t('services.budgeting.title'),
-      description: t('services.budgeting.desc'),
+      icon: Brain,
+      title: t('services.ai.title'),
+      description: t('services.ai.desc'),
       color: 'from-construction-blue to-construction-orange',
       features: [
-        'Estimation précise des coûts',
-        'Analyse comparative',
-        'Optimisation budgétaire',
-        'Suivi financier',
-        'Contrôle des dépenses'
+        'AI agent development',
+        'Computer vision solutions',
+        'RPA bot implementation',
+        'Predictive model creation',
+        'Machine learning applications'
       ],
-      benefits: ['Précision', 'Économies', 'Transparence'],
+      benefits: ['Automation', 'Intelligence', 'Innovation'],
       process: [
-        'Analyse des spécifications',
-        'Calcul des coûts détaillés',
-        'Optimisation budgétaire',
-        'Suivi des dépenses'
+        'AI requirements analysis',
+        'Model development & training',
+        'System integration',
+        'Continuous improvement'
       ]
     },
     {
-      icon: Shield,
-      title: t('services.risk.title'),
-      description: t('services.risk.desc'),
+      icon: Map,
+      title: t('services.geospatial.title'),
+      description: t('services.geospatial.desc'),
       color: 'from-primary to-gold',
       features: [
-        'Identification des risques',
-        'Plan de mitigation',
-        'Conformité réglementaire',
-        'Audit de sécurité',
-        'Accompagnement juridique'
+        'Satellite imagery analysis',
+        'GIS mapping solutions',
+        'Agricultural monitoring',
+        'Urban planning support',
+        'Environmental analysis'
       ],
-      benefits: ['Sécurité', 'Conformité', 'Protection'],
+      benefits: ['Accuracy', 'Planning', 'Monitoring'],
       process: [
-        'Audit des risques',
-        'Élaboration du plan de mitigation',
-        'Mise en œuvre des mesures',
-        'Suivi et évaluation'
+        'Data acquisition',
+        'Geospatial analysis',
+        'Map creation',
+        'Insights reporting'
       ]
     },
     {
-      icon: Users,
-      title: t('services.training.title'),
-      description: t('services.training.desc'),
+      icon: FileText,
+      title: t('services.business.title'),
+      description: t('services.business.desc'),
       color: 'from-construction-orange to-gold',
       features: [
-        'Formation technique spécialisée',
-        'Coaching des équipes',
-        'Certification professionnelle',
-        'Mise à niveau compétences',
-        'Support continu'
+        'Comprehensive business plans',
+        'Financial modeling & projections',
+        'Investor-ready pitch decks',
+        'Market analysis',
+        'Strategic planning support'
       ],
-      benefits: ['Compétences', 'Productivité', 'Sécurité'],
+      benefits: ['Funding', 'Strategy', 'Growth'],
       process: [
-        'Évaluation des besoins',
-        'Conception du programme',
-        'Formation pratique',
-        'Certification et suivi'
+        'Business assessment',
+        'Plan development',
+        'Financial modeling',
+        'Pitch deck creation'
       ]
     },
     {
-      icon: Award,
-      title: t('services.quality.title'),
-      description: t('services.quality.desc'),
+      icon: Globe,
+      title: t('services.web.title'),
+      description: t('services.web.desc'),
       color: 'from-gold-dark to-primary',
       features: [
-        'Contrôle qualité rigoureux',
-        'Standards internationaux',
-        'Audit de conformité',
-        'Plans de sécurité',
-        'Certification projets'
+        'Responsive web design',
+        'E-commerce solutions',
+        'SEO optimization',
+        'Multilingual websites',
+        'Secure & scalable architecture'
       ],
-      benefits: ['Excellence', 'Durabilité', 'Certification'],
+      benefits: ['Visibility', 'Security', 'Growth'],
       process: [
-        'Définition des standards',
-        'Contrôles qualité réguliers',
-        'Audits de conformité',
-        'Certification finale'
+        'Requirements gathering',
+        'Design & development',
+        'Testing & optimization',
+        'Launch & maintenance'
       ]
     }
   ];
@@ -162,39 +163,39 @@ const Home = () => {
 
   const projects = [
     {
-      image: projectFoundation,
-      title: 'Fondation Résidentielle',
-      category: 'Résidentiel',
-      description: 'Supervision complète des travaux de fondation'
+      image: teamMemberSite,
+      title: 'AI-Powered Automation Platform',
+      category: 'Automation',
+      description: 'Complete business process automation for enterprise client'
     },
     {
       image: buildingStructure,
-      title: 'Structure Commerciale',
-      category: 'Commercial',
-      description: 'Gestion de projet structure béton'
+      title: 'Geospatial Agriculture Monitoring',
+      category: 'GIS & Remote Sensing',
+      description: 'Satellite-based crop monitoring system'
     },
     {
       image: constructionFrame,
-      title: 'Immeuble Multi-étages',
-      category: 'Résidentiel',
-      description: 'Suivi qualité construction multi-niveaux'
+      title: 'E-Commerce Website Platform',
+      category: 'Web Development',
+      description: 'Full-stack e-commerce solution with payment integration'
     }
   ];
 
   const stats = [
-    { number: '50+', label: 'Projets Réalisés' },
-    { number: '10+', label: 'Années d\'Expérience' },
-    { number: '100%', label: 'Satisfaction Client' },
-    { number: '24/7', label: 'Support Disponible' }
+    { number: '100+', label: 'Projects Delivered' },
+    { number: '50+', label: 'Happy Clients' },
+    { number: '99%', label: 'Client Satisfaction' },
+    { number: '24/7', label: 'Support Available' }
   ];
 
   const whyChooseUs = [
-    'Expertise technique avérée',
-    'Connaissance du marché local',
-    'Standards internationaux',
-    'Équipe qualifiée et certifiée',
-    'Suivi personnalisé',
-    'Respect des délais'
+    'Cutting-edge AI & automation expertise',
+    'Local knowledge, global standards',
+    'Data-driven decision making',
+    'Certified technology professionals',
+    'Personalized client support',
+    'Proven track record of success'
   ];
 
   return (
@@ -207,13 +208,16 @@ const Home = () => {
             <div className="space-y-8 animate-fade-in">
               <div className="space-y-4">
                 <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
-                  Expert en Construction
+                  Technology Innovation Leader
                 </Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                   {t('hero.title')}
                 </h1>
                 <p className="text-lg lg:text-xl text-white/90 leading-relaxed">
                   {t('hero.subtitle')}
+                </p>
+                <p className="text-2xl font-semibold text-gold">
+                  {t('hero.tagline')}
                 </p>
               </div>
               
@@ -225,25 +229,25 @@ const Home = () => {
                   </Link>
                 </Button>
                 <Button variant="outline-gold" size="xl" className="group" asChild>
-                  <a href="tel:+22901967576390">
+                  <a href="tel:+2290191134672">
                     <Phone className="mr-2 h-5 w-5" />
                     {t('hero.cta.call')}
                   </a>
                 </Button>
               </div>
 
-              <div className="flex items-center space-x-6 text-sm">
+              <div className="flex items-center space-x-6 text-sm flex-wrap gap-2">
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-5 w-5 text-gold" />
-                  <span>Projets Certifiés</span>
+                  <span>AI-Powered Solutions</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-5 w-5 text-gold" />
-                  <span>Équipe Experte</span>
+                  <span>Global Standards</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-5 w-5 text-gold" />
-                  <span>Support 24/7</span>
+                  <span>24/7 Support</span>
                 </div>
               </div>
             </div>
@@ -251,13 +255,13 @@ const Home = () => {
             <div className="relative animate-scale-in">
               <img 
                 src={professionalSafety} 
-                alt="Professional Safety" 
+                alt="Technology Solutions" 
                 className="rounded-lg shadow-2xl hover-lift w-full h-80 object-cover"
               />
               <div className="absolute -bottom-4 -left-4 bg-white/10 backdrop-blur-md rounded-lg p-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-gold rounded-full animate-pulse"></div>
-                  <span className="text-sm font-medium">Projet en cours</span>
+                  <span className="text-sm font-medium">Transforming Businesses Daily</span>
                 </div>
               </div>
             </div>
@@ -417,20 +421,20 @@ const Home = () => {
 
             <div className="relative animate-scale-in">
               <img 
-                src={buildingStructure} 
-                alt="Building Structure" 
+                src={founderCeo} 
+                alt="AMTECH-BJ Founder & CEO" 
                 className="rounded-lg shadow-2xl w-full"
               />
               <div className="absolute -bottom-6 -right-6 bg-white shadow-xl rounded-lg p-6 max-w-xs">
                 <div className="flex items-center space-x-3 mb-3">
                   <Target className="h-8 w-8 text-gold" />
                   <div>
-                    <div className="font-semibold text-lg">Excellence</div>
-                    <div className="text-sm text-muted-foreground">Notre Engagement</div>
+                    <div className="font-semibold text-lg">Innovation</div>
+                    <div className="text-sm text-muted-foreground">Our Commitment</div>
                   </div>
                 </div>
                 <p className="text-sm">
-                  Standards internationaux appliqués à chaque projet
+                  Leading technology transformation across Africa with AI and automation
                 </p>
               </div>
             </div>
@@ -446,8 +450,8 @@ const Home = () => {
               {t('contact.subtitle')}
             </h2>
             <p className="text-lg text-white/90">
-              Contactez-nous dès aujourd'hui pour discuter de votre projet de construction. 
-              Notre équipe d'experts est prête à vous accompagner.
+              Contact us today to discuss how we can transform your business with intelligent technology solutions. 
+              Our team of experts is ready to help you innovate, illuminate, and excel.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="gold" size="xl" asChild>
@@ -457,20 +461,24 @@ const Home = () => {
                 </Link>
               </Button>
               <Button variant="outline-gold" size="xl" asChild>
-                <a href="tel:+22901967576390">
+                <a href="tel:+2290191134672">
                   <Phone className="mr-2 h-5 w-5" />
                   {t('hero.cta.call')}
                 </a>
               </Button>
             </div>
-            <div className="flex justify-center items-center space-x-8 text-sm">
+            <div className="flex justify-center items-center space-x-8 text-sm flex-wrap gap-4">
               <div className="flex items-center space-x-2">
-                <Wrench className="h-4 w-4" />
-                <span>Consultation Gratuite</span>
+                <Zap className="h-4 w-4" />
+                <span>Free Consultation</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="h-4 w-4" />
-                <span>Devis Personnalisé</span>
+                <span>Custom Solutions</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <TrendingUp className="h-4 w-4" />
+                <span>Proven Results</span>
               </div>
             </div>
           </div>

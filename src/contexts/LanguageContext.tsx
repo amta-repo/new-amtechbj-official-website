@@ -21,44 +21,45 @@ const translations = {
     'nav.faq': 'FAQ',
 
     // Hero Section
-    'hero.title': 'Votre Expert en Consulting Construction',
-    'hero.subtitle': 'De la planification à la réalisation, CODAM BENIN CONSULTING vous accompagne pour des projets sûrs, rentables et conformes aux normes.',
+    'hero.title': 'Solutions Technologiques Intelligentes pour Votre Entreprise',
+    'hero.subtitle': 'AMTECH-BJ transforme votre entreprise avec l\'IA, l\'automatisation, la science des données et des solutions technologiques innovantes. De Benin vers l\'Afrique et le monde.',
+    'hero.tagline': 'Innover, Éclairer, Exceller',
     'hero.cta.quote': 'Demandez un devis',
     'hero.cta.call': 'Appelez maintenant',
     'hero.cta.contact': 'Nous contacter',
 
     // Services
-    'services.title': 'Nos Services Experts',
-    'services.subtitle': 'Solutions complètes pour vos projets de construction',
-    'services.management.title': 'Gestion de Projets de Construction',
-    'services.management.desc': 'Suivi complet de vos projets de la conception à la livraison',
-    'services.feasibility.title': 'Études de Faisabilité & Consulting',
-    'services.feasibility.desc': 'Analyses approfondies pour valider la viabilité de vos projets',
-    'services.budgeting.title': 'Budgétisation & Estimation des Coûts',
-    'services.budgeting.desc': 'Évaluations précises pour optimiser vos investissements',
-    'services.risk.title': 'Évaluation des Risques & Conformité',
-    'services.risk.desc': 'Identification et mitigation des risques projets',
-    'services.training.title': 'Formation & Coaching',
-    'services.training.desc': 'Renforcement des capacités de vos équipes',
-    'services.quality.title': 'Assurance Qualité & Sécurité',
-    'services.quality.desc': 'Garantie de conformité aux standards internationaux',
+    'services.title': 'Nos Services Technologiques',
+    'services.subtitle': 'Solutions complètes pour la transformation numérique de votre entreprise',
+    'services.automation.title': 'Automatisation & Optimisation des Processus',
+    'services.automation.desc': 'Rationalisez les flux de travail répétitifs en RH, finance et opérations pour évoluer sans augmenter les coûts',
+    'services.datascience.title': 'Science des Données & Conseil en Analytique',
+    'services.datascience.desc': 'Transformez les données brutes en tableaux de bord, prévisions et insights exploitables',
+    'services.ai.title': 'Intelligence Artificielle & Robotique',
+    'services.ai.desc': 'Développement d\'agents IA intelligents, vision par ordinateur, bots RPA et modèles prédictifs',
+    'services.geospatial.title': 'Cartographie Géospatiale & Télédétection',
+    'services.geospatial.desc': 'Imagerie satellite, SIG et analyse spatiale pour agriculture, urbanisme et environnement',
+    'services.business.title': 'Planification d\'Affaires & Modélisation Financière',
+    'services.business.desc': 'Plans d\'affaires professionnels, modélisation financière et pitch decks pour investisseurs',
+    'services.web.title': 'Conception & Développement Web',
+    'services.web.desc': 'Sites web responsive, optimisés SEO et sécurisés pour entreprises locales et internationales',
 
     // About
-    'about.title': 'Excellence en Consulting Construction',
+    'about.title': 'Excellence en Solutions Technologiques',
     'about.mission': 'Notre Mission',
-    'about.mission.text': 'Accompagner nos clients dans la réussite de leurs projets de construction grâce à notre expertise technique et notre connaissance du marché béninois.',
+    'about.mission.text': 'Permettre aux entreprises béninoises et africaines de prospérer grâce à des solutions technologiques intelligentes, accessibles et de classe mondiale.',
     'about.vision': 'Notre Vision',
-    'about.vision.text': 'Être le leader du consulting en construction au Bénin, reconnu pour notre professionnalisme et la qualité de nos services.',
+    'about.vision.text': 'Être le leader de l\'innovation technologique en Afrique de l\'Ouest, reconnu pour notre expertise en IA, automatisation et transformation numérique.',
     'about.values': 'Nos Valeurs',
-    'about.values.text': 'Excellence, Intégrité, Innovation et Engagement client sont au cœur de notre approche.',
+    'about.values.text': 'Innovation, Excellence, Intégrité et Impact sont au cœur de notre approche technologique.',
 
     // Projects
     'projects.title': 'Nos Réalisations',
-    'projects.subtitle': 'Découvrez quelques-uns de nos projets réussis',
+    'projects.subtitle': 'Découvrez nos projets technologiques innovants',
 
     // Contact
     'contact.title': 'Contactez-Nous',
-    'contact.subtitle': 'Prêt à démarrer votre projet ? Discutons-en !',
+    'contact.subtitle': 'Prêt à transformer votre entreprise ? Discutons-en !',
     'contact.form.name': 'Nom complet',
     'contact.form.email': 'Email',
     'contact.form.phone': 'Téléphone',
@@ -76,6 +77,12 @@ const translations = {
     // FAQ
     'faq.title': 'Questions Fréquentes',
     'faq.subtitle': 'Trouvez rapidement les réponses à vos questions',
+    'faq.q1': 'Construisez-vous des sites e-commerce ?',
+    'faq.a1': 'Oui. AMTECH-BJ construit des sites e-commerce sécurisés, optimisés SEO avec intégration de paiement et gestion d\'inventaire.',
+    'faq.q2': 'Pouvez-vous travailler avec des clients internationaux ?',
+    'faq.a2': 'Oui. Nous concevons et livrons des solutions technologiques pour clients locaux et internationaux avec des standards mondiaux.',
+    'faq.q3': 'Quelles industries servez-vous ?',
+    'faq.a3': 'Nous accompagnons entreprises, ONGs et agences gouvernementales dans l\'agriculture, finance, commerce et urbanisme.',
 
     // Common
     'common.learn_more': 'En savoir plus',
@@ -96,44 +103,45 @@ const translations = {
     'nav.faq': 'FAQ',
 
     // Hero Section
-    'hero.title': 'Your Construction Consulting Expert',
-    'hero.subtitle': 'From planning to execution, CODAM BENIN CONSULTING ensures safe, profitable, and compliant projects.',
+    'hero.title': 'Intelligent Technology Solutions for Your Business',
+    'hero.subtitle': 'AMTECH-BJ transforms your business with AI, automation, data science, and innovative technology solutions. From Benin to Africa and the world.',
+    'hero.tagline': 'Innovate, Illuminate, Excel',
     'hero.cta.quote': 'Get a Quote',
     'hero.cta.call': 'Call Now',
     'hero.cta.contact': 'Contact Us',
 
     // Services
-    'services.title': 'Our Expert Services',
-    'services.subtitle': 'Complete solutions for your construction projects',
-    'services.management.title': 'Construction Project Management',
-    'services.management.desc': 'Complete oversight from design to delivery',
-    'services.feasibility.title': 'Feasibility Studies & Consulting',
-    'services.feasibility.desc': 'In-depth analysis to validate project viability',
-    'services.budgeting.title': 'Budgeting & Cost Estimation',
-    'services.budgeting.desc': 'Precise evaluations to optimize your investments',
-    'services.risk.title': 'Risk Assessment & Compliance',
-    'services.risk.desc': 'Identification and mitigation of project risks',
-    'services.training.title': 'Training & Coaching',
-    'services.training.desc': 'Capacity building for your teams',
-    'services.quality.title': 'Quality Assurance & Safety',
-    'services.quality.desc': 'Guaranteed compliance with international standards',
+    'services.title': 'Our Technology Services',
+    'services.subtitle': 'Complete solutions for your business digital transformation',
+    'services.automation.title': 'Business Automation & Process Optimization',
+    'services.automation.desc': 'Streamline repetitive workflows like HR, finance, and operations to scale without scaling costs',
+    'services.datascience.title': 'Data Science & Analytics Consulting',
+    'services.datascience.desc': 'Transform raw data into dashboards, forecasts, segmentation, and actionable insights',
+    'services.ai.title': 'Artificial Intelligence & Robotics Development',
+    'services.ai.desc': 'Develop intelligent AI agents, computer vision solutions, RPA bots, and predictive models',
+    'services.geospatial.title': 'Geospatial Mapping & Remote Sensing',
+    'services.geospatial.desc': 'Satellite imagery, GIS, and spatial analysis for agriculture, urban planning, and environmental monitoring',
+    'services.business.title': 'Business Planning, Financial Modeling & Pitch Decks',
+    'services.business.desc': 'Professional business plans, financial modeling, and investor-ready pitch decks for entrepreneurs',
+    'services.web.title': 'Website Design & Development',
+    'services.web.desc': 'Responsive, SEO-friendly, secure websites for local and international businesses',
 
     // About
-    'about.title': 'Excellence in Construction Consulting',
+    'about.title': 'Excellence in Technology Solutions',
     'about.mission': 'Our Mission',
-    'about.mission.text': 'To support our clients in achieving successful construction projects through our technical expertise and knowledge of the Benin market.',
+    'about.mission.text': 'To empower Beninese and African businesses to thrive through intelligent, accessible, and world-class technology solutions.',
     'about.vision': 'Our Vision',
-    'about.vision.text': 'To be the leading construction consulting firm in Benin, recognized for our professionalism and service quality.',
+    'about.vision.text': 'To be the leading technology innovation hub in West Africa, recognized for our expertise in AI, automation, and digital transformation.',
     'about.values': 'Our Values',
-    'about.values.text': 'Excellence, Integrity, Innovation, and Client Commitment are at the heart of our approach.',
+    'about.values.text': 'Innovation, Excellence, Integrity, and Impact are at the heart of our technological approach.',
 
     // Projects
     'projects.title': 'Our Achievements',
-    'projects.subtitle': 'Discover some of our successful projects',
+    'projects.subtitle': 'Discover our innovative technology projects',
 
     // Contact
     'contact.title': 'Contact Us',
-    'contact.subtitle': 'Ready to start your project? Let\'s discuss!',
+    'contact.subtitle': 'Ready to transform your business? Let\'s discuss!',
     'contact.form.name': 'Full Name',
     'contact.form.email': 'Email',
     'contact.form.phone': 'Phone',
@@ -151,6 +159,12 @@ const translations = {
     // FAQ
     'faq.title': 'Frequently Asked Questions',
     'faq.subtitle': 'Find quick answers to your questions',
+    'faq.q1': 'Do you build e-commerce websites?',
+    'faq.a1': 'Yes. AMTECH-BJ builds secure, SEO-optimized e-commerce websites with payment integration and inventory management.',
+    'faq.q2': 'Can you work with international clients?',
+    'faq.a2': 'Yes. We design and deliver technology solutions for both local and international clients with global standards.',
+    'faq.q3': 'What industries do you serve?',
+    'faq.a3': 'We support businesses, NGOs, and government agencies in industries such as agriculture, finance, retail, and urban planning.',
 
     // Common
     'common.learn_more': 'Learn More',
@@ -164,7 +178,7 @@ const translations = {
 };
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('fr');
+  const [language, setLanguage] = useState<Language>('en');
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem('language') as Language;

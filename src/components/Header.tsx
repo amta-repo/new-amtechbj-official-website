@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Menu, X, Phone, Mail, MessageCircle, Instagram, Facebook, Linkedin } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-import codamLogo from '@/assets/codam-logo.png';
+import amtechLogo from '@/assets/amtech-logo.jpg';
 
 const Header = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -29,22 +29,22 @@ const Header = () => {
           <div className="flex justify-between items-center text-sm">
             <div className="flex items-center space-x-4">
               <a 
-                href="https://wa.me/+22901967576639" 
+                href="https://wa.me/+2290191134672" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-1 hover:opacity-80 transition-opacity"
               >
                 <MessageCircle className="h-3 w-3" />
-                <span className="hidden sm:inline">+229 01 96 75 76 39</span>
+                <span className="hidden sm:inline">+229 01 91 13 46 72</span>
               </a>
               <div className="hidden md:flex items-center space-x-1">
                 <Mail className="h-3 w-3" />
-                <span>contact@codambenin.com</span>
+                <span>info@amtech-bj.com</span>
               </div>
               {/* Social media icons for mobile */}
               <div className="md:hidden flex items-center space-x-3">
                 <a 
-                  href="https://www.facebook.com/codambenin" 
+                  href="https://www.facebook.com/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
@@ -52,7 +52,7 @@ const Header = () => {
                   <Facebook className="h-3 w-3" />
                 </a>
                 <a 
-                  href="https://www.instagram.com/codambenin" 
+                  href="https://www.instagram.com/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
@@ -60,7 +60,7 @@ const Header = () => {
                   <Instagram className="h-3 w-3" />
                 </a>
                 <a 
-                  href="https://www.linkedin.com/company/codambenin" 
+                  href="https://www.linkedin.com/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
@@ -70,7 +70,7 @@ const Header = () => {
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-2">
-              <span className="text-xs">F82W+4P Abomey Calavi, Atlantique Benin</span>
+              <span className="text-xs">Cotonou, Benin | Serving Africa & Global Markets</span>
             </div>
           </div>
         </div>
@@ -82,13 +82,13 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img 
-              src={codamLogo} 
-              alt="CODAM BENIN CONSULTING" 
-              className="h-12 w-auto"
+              src={amtechLogo} 
+              alt="AMTECH-BJ Technology Solutions" 
+              className="h-14 w-auto"
             />
             <div className="flex flex-col">
-              <span className="font-bold text-lg text-primary">CODAM BENIN</span>
-              <span className="text-xs text-muted-foreground uppercase tracking-wide">CONSULTING</span>
+              <span className="font-bold text-xl text-primary">AMTECH-BJ</span>
+              <span className="text-xs text-gold uppercase tracking-wide font-medium">Innovate, Illuminate, Excel</span>
             </div>
           </Link>
 

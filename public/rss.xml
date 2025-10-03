@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMTECH-BJ - Technology Solutions & Innovations</title>
+    <link>https://amtech-bj.github.io/home</link>
+    <description>Latest news, updates, and insights from AMTECH-BJ on AI, automation, data science, and technology solutions for businesses in Benin and Africa</description>
+    <language>en</language>
+    <copyright>Copyright 2025 AMTECH-BJ Technology Solutions</copyright>
+    <managingEditor>info@amtech-bj.com (AMTECH-BJ)</managingEditor>
+    <webMaster>info@amtech-bj.com (AMTECH-BJ)</webMaster>
+    <atom:link href="https://amtech-bj.github.io/home/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AMTECH-BJ Launches Advanced AI Automation Solutions</title>
+      <link>https://amtech-bj.github.io/home</link>
+      <description>AMTECH-BJ announces new AI-powered automation services to help businesses scale efficiently without increasing operational costs.</description>
+      <pubDate>Mon, 03 Jan 2025 00:00:00 GMT</pubDate>
+      <guid>https://amtech-bj.github.io/home#automation-launch</guid>
+    </item>
+    
+    <item>
+      <title>Data Science Consulting Now Available for African Businesses</title>
+      <link>https://amtech-bj.github.io/home</link>
+      <description>Transform your raw data into actionable insights with AMTECH-BJ's comprehensive data science and analytics consulting services.</description>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+      <guid>https://amtech-bj.github.io/home#datascience-announcement</guid>
+    </item>
+    
+    <item>
+      <title>Geospatial Mapping Solutions for Agriculture & Urban Planning</title>
+      <link>https://amtech-bj.github.io/home</link>
+      <description>AMTECH-BJ brings satellite imagery, GIS, and remote sensing capabilities to support agriculture and urban development projects across Benin and Africa.</description>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 GMT</pubDate>
+      <guid>https://amtech-bj.github.io/home#geospatial-services</guid>
+    </item>
+  </channel>
+</rss>
