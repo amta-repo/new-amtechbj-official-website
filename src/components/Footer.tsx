@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Facebook, Instagram, Youtube, Twitter, Rss } from 'lucide-react';
-import amtechLogo from '@/assets/amtech-logo.jpg';
+// Logo removed - using text logo instead
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -31,17 +31,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              <img 
-                src={amtechLogo} 
-                alt="AMTECH-BJ Technology Solutions" 
-                className="h-12 w-auto rounded"
-              />
-              <div className="flex flex-col">
-                <span className="font-bold text-lg">AMTECH-BJ</span>
-                <span className="text-xs opacity-90 uppercase tracking-wide text-gold">Innovate, Illuminate, Excel</span>
-              </div>
-            </div>
+            <Link to="/" className="flex flex-col">
+              <span className="text-2xl font-bold text-primary-foreground">AMTECH-BJ</span>
+              <span className="text-gold text-xs font-light tracking-wider">
+                Innovate, Illuminate, Excel
+              </span>
+            </Link>
             <p className="text-sm opacity-90 leading-relaxed">
               {t('about.mission.text')}
             </p>

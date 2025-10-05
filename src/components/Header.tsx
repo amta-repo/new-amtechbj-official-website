@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Menu, X, Phone, Mail, MessageCircle, Instagram, Facebook, Linkedin } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-import amtechLogo from '@/assets/amtech-logo.jpg';
+// Logo removed - using text logo instead
 
 const Header = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -80,16 +80,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src={amtechLogo} 
-              alt="AMTECH-BJ Technology Solutions" 
-              className="h-14 w-auto"
-            />
-            <div className="flex flex-col">
-              <span className="font-bold text-xl text-primary">AMTECH-BJ</span>
-              <span className="text-xs text-gold uppercase tracking-wide font-medium">Innovate, Illuminate, Excel</span>
-            </div>
+          <Link to="/" className="flex flex-col group">
+            <span className="text-2xl font-bold text-primary group-hover:text-gold transition-colors">
+              AMTECH-BJ
+            </span>
+            <span className="text-gold text-xs font-light tracking-wider">
+              Innovate, Illuminate, Excel
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

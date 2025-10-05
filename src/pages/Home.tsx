@@ -24,7 +24,7 @@ import ServiceDetailModal from '@/components/ServiceDetailModal';
 // Import images
 import founderCeo from '@/assets/founder-ceo.jpg';
 import teamMemberSite from '@/assets/team-member-site.jpg';
-import professionalSafety from '@/assets/professional-safety.jpg';
+import heroTech from '@/assets/hero-tech.jpg';
 import buildingStructure from '@/assets/building-structure.jpg';
 import constructionFrame from '@/assets/construction-frame.jpg';
 
@@ -254,8 +254,8 @@ const Home = () => {
 
             <div className="relative animate-scale-in">
               <img 
-                src={professionalSafety} 
-                alt="Technology Solutions" 
+                src={founderCeo} 
+                alt="AMTECH-BJ CEO - Technology Leadership" 
                 className="rounded-lg shadow-2xl hover-lift w-full h-80 object-cover"
               />
               <div className="absolute -bottom-4 -left-4 bg-white/10 backdrop-blur-md rounded-lg p-4">
