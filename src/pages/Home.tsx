@@ -22,11 +22,11 @@ import { Link } from 'react-router-dom';
 import ServiceDetailModal from '@/components/ServiceDetailModal';
 
 // Import images
-import founderCeo from '@/assets/founder-ceo.jpg';
-import teamMemberSite from '@/assets/team-member-site.jpg';
+import founderCeo from '@/assets/40yo tech savvy Nigeria 1.jpeg';
+import teamMemberSite from '@/assets/tech-team1.jpg';
 import heroTech from '@/assets/hero-tech.jpg';
-import buildingStructure from '@/assets/building-structure.jpg';
-import constructionFrame from '@/assets/construction-frame.jpg';
+import buildingStructure from '@/assets/geospatial-project.jpg';
+import constructionFrame from '@/assets/e-commerce.jpg';
 
 const Home = () => {
   const { t } = useLanguage();
@@ -254,7 +254,7 @@ const Home = () => {
 
             <div className="relative animate-scale-in">
               <img 
-                src={founderCeo} 
+                src={heroTech} 
                 alt="AMTECH-BJ CEO - Technology Leadership" 
                 className="rounded-lg shadow-2xl hover-lift w-full h-80 object-cover"
               />

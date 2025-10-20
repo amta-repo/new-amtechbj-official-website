@@ -52,7 +52,7 @@ const Header = () => {
                   <Facebook className="h-3 w-3" />
                 </a>
                 <a 
-                  href="https://www.instagram.com/" 
+                  href="https://www.instagram.com/amtechbj/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"
@@ -60,7 +60,7 @@ const Header = () => {
                   <Instagram className="h-3 w-3" />
                 </a>
                 <a 
-                  href="https://www.linkedin.com/" 
+                  href="https://www.linkedin.com/company/amtech-bj" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:opacity-80 transition-opacity"

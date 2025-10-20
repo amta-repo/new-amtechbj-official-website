@@ -50,15 +50,15 @@ const Contact = () => {
     {
       icon: Phone,
       title: t('contact.info.phone'),
-      content: ['+229 01 96 75 76 39', '+229 01 96 75 76 39'],
-      action: 'tel:+22901967576390',
+      content: ['+229 01 91 13 46 72'],
+      action: 'tel:+2290191134672',
       color: 'from-gold to-gold-dark'
     },
     {
       icon: Mail,
       title: t('contact.info.email'),
-      content: ['contact@codambenin.com', 'info@codambenin.com'],
-      action: 'mailto:contact@codambenin.com',
+      content: ['info@amtech-bj.com'],
+      action: 'mailto:amtech.benin@gmail.com',
       color: 'from-construction-orange to-gold'
     },
     {
@@ -298,12 +298,12 @@ const Contact = () => {
                     <div className="text-center space-y-4">
                       <MapPin className="h-12 w-12 text-gold mx-auto" />
                       <div>
-                        <p className="font-medium">CODAM BENIN CONSULTING</p>
-                        <p className="text-sm text-muted-foreground">F82W+4P Abomey Calavi</p>
+                        <p className="font-medium">AMTECH-BJ</p>
+                        <p className="text-sm text-muted-foreground">F82H+R3 Abomey Calavi</p>
                         <p className="text-sm text-muted-foreground">Atlantique Benin</p>
                       </div>
                       <Button variant="outline" size="sm" asChild>
-                        <a href="https://maps.google.com/?q=F82W%2B4P+Abomey+Calavi,+Atlantique+Benin" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.google.com/maps/place/AMTECH-BJ/@6.4521109,2.3251391,17z/data=!3m1!4b1!4m6!3m5!1s0x1024a90693a88781:0xd8a763d7c4a762!8m2!3d6.4521109!4d2.3277194!16s%2Fg%2F11qs4hj606?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
                           Voir sur Google Maps
                           <ArrowRight className="ml-2 h-4 w-4" />
                         </a>

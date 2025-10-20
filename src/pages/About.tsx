@@ -15,8 +15,8 @@ import {
   Star
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import professionalSafety from '@/assets/professional-safety.jpg';
-import teamMemberSite from '@/assets/team-member-site.jpg';
+import professionalSafety from '@/assets/40yo tech savvy Nigeria 1.jpeg';
+import teamMemberSite from '@/assets/tech-team.jpg';
 
 const About = () => {
   const { t } = useLanguage();
