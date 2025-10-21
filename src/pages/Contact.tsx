@@ -97,7 +97,7 @@ const Contact = () => {
 
   const openWhatsApp = () => {
     const message = encodeURIComponent(`Bonjour CODAM BENIN CONSULTING, je souhaite obtenir des informations sur vos services de consulting en construction.`);
-    window.open(`https://wa.me/22901967576390?text=${message}`, '_blank');
+    window.open(`https://wa.me/22991134672?text=${message}`, '_blank');
   };
 
   return (

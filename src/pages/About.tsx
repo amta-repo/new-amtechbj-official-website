@@ -112,8 +112,8 @@ const About = () => {
                 <div className="flex items-center space-x-3 mb-3">
                   <Award className="h-8 w-8 text-gold" />
                   <div>
-                    <div className="font-semibold text-lg">10+ Ans</div>
-                    <div className="text-sm text-muted-foreground">d'Expérience</div>
+                    <div className="font-bold text-lg-black">10+ Ans</div>
+                    <div className="text-sm text-foreground">d'Expérience</div>
                   </div>
                 </div>
                 <p className="text-sm">
