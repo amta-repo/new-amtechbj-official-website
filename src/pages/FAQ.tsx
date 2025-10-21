@@ -11,6 +11,19 @@ const FAQ = () => {
     { question: t('faq.q3'), answer: t('faq.a3') },
   ];
 
+  const businessFaqs = [
+    { question: t('faq.biz.q1'), answer: t('faq.biz.a1') },
+    { question: t('faq.biz.q2'), answer: t('faq.biz.a2') },
+    { question: t('faq.biz.q3'), answer: t('faq.biz.a3') },
+    { question: t('faq.biz.q4'), answer: t('faq.biz.a4') },
+    { question: t('faq.biz.q5'), answer: t('faq.biz.a5') },
+    { question: t('faq.biz.q6'), answer: t('faq.biz.a6') },
+    { question: t('faq.biz.q7'), answer: t('faq.biz.a7') },
+    { question: t('faq.biz.q8'), answer: t('faq.biz.a8') },
+    { question: t('faq.biz.q9'), answer: t('faq.biz.a9') },
+    { question: t('faq.biz.q10'), answer: t('faq.biz.a10') },
+  ];
+
   const automationFaqs = [
     { question: t('faq.auto.q1'), answer: t('faq.auto.a1') },
     { question: t('faq.auto.q2'), answer: t('faq.auto.a2') },
@@ -55,6 +68,23 @@ const FAQ = () => {
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground text-base leading-relaxed">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </Card>
+
+        {/* Business Planning FAQs */}
+        <Card className="p-8 mb-8">
+          <h2 className="text-2xl font-bold mb-6">{t('faq.business.title')}</h2>
+          <Accordion type="single" collapsible className="w-full">
+            {businessFaqs.map((faq, index) => (
+              <AccordionItem key={`business-${index}`} value={`business-${index}`}>
+                <AccordionTrigger className="text-left text-lg font-semibold">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground text-base leading-relaxed whitespace-pre-line">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
