@@ -255,7 +255,7 @@ const Home = () => {
             <div className="relative animate-scale-in">
               <img 
                 src={heroTech} 
-                alt="AMTECH-BJ CEO - Technology Leadership" 
+                alt="AMTECH-BJ - Technology Leadership" 
                 className="rounded-lg shadow-2xl hover-lift w-full h-80 object-cover"
               />
               <div className="absolute -bottom-4 -left-4 bg-white/10 backdrop-blur-md rounded-lg p-4">
